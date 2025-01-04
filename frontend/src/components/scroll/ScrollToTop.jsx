@@ -4,7 +4,7 @@ import useScrollTrigger from "@mui/material/useScrollTrigger";
 
 export default function ScrollToTop() {
   return (
-    <Zoom in={useScrollTrigger({ threshold: 100 })}>
+    <Zoom in={useScrollTrigger({ threshold: 50 })}>
       <Fab
         onClick={() => {
           window.scrollTo(0, 0);

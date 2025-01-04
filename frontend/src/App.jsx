@@ -7,7 +7,6 @@ import { ColorModeContext, useMode } from "./theme";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./components/scroll/ScrollToTop";
-
 function App() {
   const [theme, colorMode] = useMode();
 
